@@ -1,0 +1,129 @@
+{
+    "name": "NellaiAR - AR Tourism Guide",
+    "short_name": "NellaiAR",
+    "description": "AI + AR powered tourism guide for Tirunelveli. Explore temples, waterfalls, and cultural landmarks with immersive technology.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0A0A1A",
+    "theme_color": "#8A2BE2",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "en-US",
+    "dir": "ltr",
+    "categories": [
+        "travel",
+        "tourism",
+        "navigation",
+        "lifestyle"
+    ],
+    "icons": [
+        {
+            "src": "/icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-128x128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-152x152.png",
+            "sizes": "152x152",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/screenshot-home.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "label": "NellaiAR Home Page"
+        },
+        {
+            "src": "/screenshot-map.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "label": "Interactive Map View"
+        },
+        {
+            "src": "/screenshot-ar.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "label": "AR Camera View"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Explore Map",
+            "short_name": "Map",
+            "description": "View interactive map of Tirunelveli",
+            "url": "/map",
+            "icons": [
+                {
+                    "src": "/icon-map.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "Launch AR",
+            "short_name": "AR View",
+            "description": "Start AR camera experience",
+            "url": "/ar-view",
+            "icons": [
+                {
+                    "src": "/icon-ar.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "Plan Trip",
+            "short_name": "Planner",
+            "description": "AI-powered trip planning",
+            "url": "/trip-planner",
+            "icons": [
+                {
+                    "src": "/icon-planner.png",
+                    "sizes": "96x96"
+                }
+            ]
+        }
+    ],
+    "related_applications": [],
+    "prefer_related_applications": false
+}
